@@ -3,7 +3,6 @@ from sklearn.linear_model import LinearRegression as SklearnLinearRegression
 
 # Define the manual implementation from the previous step
 # test
-#This is my code
 class LinearRegression:
     def __init__(self, learning_rate=0.01, n_iterations=1000):
         self.learning_rate = learning_rate
